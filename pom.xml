@@ -104,7 +104,7 @@
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Snapshot Nexus Repository </name>
-	      <url>http://18.60.149.210:8081/repository/jio-release-repo/</url>
+	      <url>http://18.60.149.210:8081/repository/jio-sanpshot-repo/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
