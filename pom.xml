@@ -2,7 +2,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	
-	<groupId>com.TT</groupId>
+	<groupId>com.MM</groupId>
 	<artifactId>maven-web-application</artifactId>
 	<packaging>war</packaging>
 	<version>3.1.0-SNAPSHOT</version>
@@ -12,8 +12,8 @@
 	<description>Maven Web Project for Java Project</description>
 
 	<organization>
-		<name>Tessting</name>
-		<url>http://Testing.com</url>
+		<name>Mahesh</name>
+		<url>http://mahesh.com</url>
 	</organization>
 
 	<properties>
@@ -21,7 +21,7 @@
 		<spring.version>5.3.34</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>18.60.61.196:9000/</sonar.host.url>
+		<sonar.host.url>http://18.60.61.196:9000/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
 		<sonar.password>password</sonar.password> 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -97,7 +97,7 @@
 	
 	    <repository>
 	      <id>nexus</id>
-	      <name>Releases Nexus Repository</name>
+	      <name>Release Nexus Repository</name>
 	      <url>http://18.61.90.207:8081/repository/jio-release-repo/</url>
 	    </repository>
 	    
@@ -139,12 +139,6 @@
 						<contextPath>/maven-web-application</contextPath>
 					</webApp>
 				</configuration>
-			</plugin>
-
-			<plugin>
-				<groupId>org.sonarsource.scanner.maven</groupId>
-				<artifactId>sonar-maven-plugin</artifactId>
-				<version>5.8.0.7211</version>
 			</plugin>
 
 			<plugin>
