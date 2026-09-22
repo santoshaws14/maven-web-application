@@ -31,7 +31,7 @@ node {
 
         sh """
             curl -u admin:password \
-            --upload-file /var/lib/jenkins/workspace/MBPL-Jio_devlepmenttarget/maven-web-application.war \
+            --upload-file /var/lib/jenkins/workspace/MBPL-Jio_devlepment/target/maven-web-application.war \
             "http://98.130.57.176:8080/manager/text/deploy?path=/maven-web-application&update=true"
         """
     }
