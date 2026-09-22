@@ -46,7 +46,7 @@
 <body>
 
 <header>
-    <h1>🚀 Welcome to Mahesh YOUTUBE CHANNEL NEW BATCH ON JAN 25th 8:30PM IST Telugu</h1>
+    <h1>🚀 Welcome to Mahesh YOUTUBE CHANNEL NEW BATCH ON JAN 25th 8:30PM IST Telugu-English</h1>
     <h3>Training | Development | Consulting</h3>
 </header>
 
