@@ -31,7 +31,7 @@ node {
 
         sh """
             curl -u admin:password \
-            --upload-file /var/lib/jenkins/workspace/Multibranch pipeline/target/maven-web-application.war \
+            --upload-file /var/lib/jenkins/workspace/MBPL-Jio/target/maven-web-application.war \
             "http://16.113.120.231:8080/manager/text/deploy?path=/maven-web-application&update=true"
         """
     }
